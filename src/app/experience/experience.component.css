@@ -1,0 +1,27 @@
+.container {
+  margin-top: 30px !important;
+  padding-bottom: 30px
+}
+
+.accordian-container {
+  max-width: 800px !important;
+  margin: auto;
+}
+
+.accordian {
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+
+:host ::ng-deep .p-accordion-header-text {
+  width: auto !important;
+}
+
+.project-link:hover {
+  text-decoration: underline !important;
+}
+
+:host ::ng-deep .p-accordion-header-link {
+  width: auto !important;
+}

@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="d-flex justify-content-center">
+    <strong class="title-3 text-align-center mb-3"><span class="secondary-text-color">Projects </span>I have worked/currently working on</strong>
+   </div>
+  <div class="accordian-container">
+    <p-accordion [multiple]="true">
+      <ng-container *ngFor="let project of projects">
+        <p-accordionTab header="{{project.name}}">
+          <ng-template pTemplate="header" class="d-flex justify-content-around">
+            <img [src]="baseIconUrl + project.iconUrl" class="icon icon-right-4">
+          </ng-template>
+          <ng-template pTemplate="content">
+            <div class="description mb-5">
+              {{project.description}}
+            </div>
+            <div class="project-link-container">
+              <span>Link: <a href="{{project.link}}" target="_blank" class="project-link">{{project.link}}</a></span>
+            </div>
+          </ng-template>
+        </p-accordionTab>
+      </ng-container>
+  </p-accordion>
+
+  </div>
+</div>

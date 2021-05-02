@@ -1,0 +1,23 @@
+.intro-section {
+  margin-top: 12rem;
+  text-align: center;
+}
+
+.container {
+  height: 200px;
+}
+
+.container .my-post {
+  display: inline-block;
+  font-size: 20px;
+  transform: scale(0.7, 1);
+  font-weight: 600;
+}
+
+.button-section {
+  width: 200px;
+  margin: auto;
+}
+
+
+

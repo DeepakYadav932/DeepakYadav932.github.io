@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'primeNgOverride.css';
+@import 'bootstrapOverride.css';
+
+:root {
+  --primary-pf-color: #C3073F;
+  --secondary-pf-color: crimson;
+  --primary-pf-text-color: white;
+  --secondary-pf-text-color: rgb(243, 54, 54);
+  --second-pf-color-with-opacity: rgb(220, 20, 60, 0.3);
+  --button-hover-color: rgb(243, 54, 54);
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--primary-pf-text-color);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-image {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/laptop2.jpg') no-repeat 0% 75%/cover;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--secondary-pf-color);
+  background-blend-mode: hard-light;
+}
+
+.secondary-text-color {
+  color: var(--secondary-pf-text-color);
+}
+
+
+.title {
+  display: inline-block;
+  font-size: 60px;
+  transform: scale(0.7, 1);
+  font-weight: 800;
+}
+
+.text-align-center {
+  text-align: center !important;
+}
+
+.title-2 {
+  display: inline-block;
+  font-size: 50px;
+  transform: scale(0.8, 1);
+  font-weight: 800;
+}
+
+.title-3 {
+  display: inline-block;
+  font-size: 30px;
+  transform: scale(0.85, 1);
+  font-weight: 700;
+}
+.title-4 {
+  display: inline-block;
+  font-size: 20px;
+  transform: scale(0.85, 1);
+  font-weight: 200;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.icon-right-1 {
+  position: absolute;
+  right: 10px;
+}
+
+.icon-right-2 {
+  position: absolute;
+  right: 20px;
+}
+.icon-right-3 {
+  position: absolute;
+  right: 30px;
+}
+.icon-right-4 {
+  position: absolute;
+  right: 40px;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    color: rgb(41, 238, 241) !important;
+    /* background-color: rgb(44, 161, 163);color of your choosing */
+    text-decoration: none !important;
+    font-weight: normal !important;
+    cursor: pointer;
+}
+a:hover {
+  color: rgb(71, 134, 216) !important;
+}

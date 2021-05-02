@@ -1,0 +1,23 @@
+
+.btn {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: var(--secondary-pf-color) !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.btn:hover {
+  background-color: var(--button-hover-color) !important;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.list-group-item {
+  background-color: var(--primary-pf-color) !important;
+}

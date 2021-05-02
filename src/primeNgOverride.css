@@ -1,0 +1,26 @@
+p-sidebar .p-sidebar {
+  background-color: #C3073F;
+}
+
+
+p-accordion .p-accordion-header-link {
+  background-color: var(--primary-pf-color) !important;
+  font-weight: 300 !important;
+  text-decoration: none !important;
+  height: 70px !important;
+}
+
+p-accordion .p-accordion-content {
+  background-color: var(--secondary-pf-color) !important;
+  font-weight: 200;
+}
+
+p-accordion .p-accordion-header-link:focus,
+p-accordion .p-accordion-content:focus  {
+  box-shadow: none !important;
+}
+
+.p-accordion .p-accordion-content {
+  color: var(--primary-pf-text-color) !important;
+}
+

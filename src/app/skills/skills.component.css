@@ -1,0 +1,13 @@
+.skills-list {
+  max-width: 500px;
+  margin: auto;
+}
+
+.container-fluid {
+  margin-top: 30px;
+}
+
+
+li:hover {
+  background-color: var(--secondary-pf-color) !important;
+}

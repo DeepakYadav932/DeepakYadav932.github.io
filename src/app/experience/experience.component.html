@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="d-flex justify-content-center">
+    <strong class="title-3 text-align-center mb-3">My <span class="secondary-text-color">Experience</span></strong>
+   </div>
+  <div class="accordian-container">
+    <p-accordion [multiple]="true">
+      <ng-container *ngFor="let exp of experience">
+        <p-accordionTab header="{{exp.companyName}}">
+          <ng-template pTemplate="header" class="d-flex justify-content-around">
+            <img src="{{baseIconUrl + exp.companyLogoUrl}}" alt="" class="icon icon-right-4">
+          </ng-template>
+          <ng-template pTemplate="content">
+           Time Period: {{exp.timePeriod}}
+          </ng-template>
+        </p-accordionTab>
+      </ng-container>
+  </p-accordion>
+
+  </div>
+</div>

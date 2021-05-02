@@ -1,0 +1,52 @@
+.owner-image {
+  background: url('../../assets/deepak_image.jpg') center center/cover;
+  height: 180px;
+  width: 180px;
+  margin: auto;
+  border-radius: 50%;
+  border-color: burlywood;
+  box-shadow:  1px -1px 5px 5px #CCC;
+}
+
+.list-items {
+  max-width: 260px;
+  margin: auto;
+}
+
+.list-menu {
+  margin-top: 80px;
+  height: auto;
+}
+
+.list-items ul li {
+  margin-bottom: 15px;
+  padding: 10px 10px;
+  font-size: large;
+  font-weight: 500;
+  color: var(--primary-pf-color);
+  border-bottom: 1px solid yellow;
+}
+
+.list-items ul li:hover {
+  background-color: var(--secondary-pf-color);
+  cursor: pointer;
+}
+
+.list-items ul {
+  list-style-type: none;
+}
+
+.list-items .list .item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pi-arrow-right {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.name-label {
+  margin: 17px auto
+}
+

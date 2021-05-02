@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="d-flex justify-content-center">
+   <strong class="title-2 text-align-center">My <span class="secondary-text-color">Skills</span></strong>
+  </div>
+  <div class="skills-list">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item d-flex justify-content-between" *ngFor="let skill of skills; index as i">
+        <span>{{i+1}}. {{skill.name}}</span>
+        <img [src]="baseIconUrl + skill.iconUrl" alt="" class="icon">
+      </li>
+
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<p-sidebar [(visible)]="display" [baseZIndex]="10000" styleClass="p-sidebar">
+  <div class="owner-image"></div>
+  <div class="name-label text-align-center">
+    <span class="title-3">Deepak Yadav</span>
+  </div>
+  <div class="list-menu">
+    <div class="list-items">
+      <ul class="list">
+        <li class="item" *ngFor="let item of menuItems; index as i"
+                         (mouseover)="onMouseOver(i)"
+                         (mouseleave)="onMouseLeave(i)"
+                         (click)="navigateToMenutem(i)">
+          <span>{{item.label}}</span>
+          <i class="pi pi-arrow-right" *ngIf="item.shouldShowArrowIcon"></i>
+        </li>
+    </ul>
+    </div>
+  </div>
+</p-sidebar>

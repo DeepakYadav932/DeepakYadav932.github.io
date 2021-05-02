@@ -1,0 +1,39 @@
+.side-toggle {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary-pf-color);
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.side-toggle:hover {
+  background-color: var(--secondary-pf-color);
+}
+
+.navbar {
+  background: var(--second-pf-color-with-opacity);
+}
+
+.navbar-links {
+  margin-right: 3rem;
+}
+
+
+.navbar-links ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.navbar-links ul li {
+  display: inline;
+  background: var(--primary-pf-color);
+  cursor: pointer;
+}
+
+.navbar-links ul li:hover {
+  background-color: var(--secondary-pf-color);
+}
