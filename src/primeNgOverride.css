@@ -28,5 +28,16 @@ p-accordion .p-accordion-content:focus  {
   p-sidebar .p-sidebar {
     width: 85% !important;
   }
+
+  .p-accordion .p-accordion-header .p-accordion-header-link {
+    padding: 0.5rem !important;
+    font-size: 13px;
+    height: 60px !important;
+  }
+
+  .p-accordion .p-accordion-content {
+    font-size: 12px;
+  }
+
 }
 

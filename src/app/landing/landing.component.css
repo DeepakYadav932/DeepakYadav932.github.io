@@ -25,6 +25,10 @@
     line-height: 1;
     margin-bottom: 10px;
   }
+
+  .intro-section {
+    margin-top: 07rem;
+  }
 }
 
 @media (max-width: 770px) and (min-width: 430px) {

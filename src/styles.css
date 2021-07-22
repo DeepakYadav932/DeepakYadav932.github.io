@@ -99,3 +99,17 @@ a:active {
 a:hover {
   color: rgb(71, 134, 216) !important;
 }
+
+@media(max-width: 500px) {
+  .title-3 {
+    font-size: 20px;
+  }
+
+  .title-2 {
+    font-size: 30px;
+  }
+
+  .icon-right-4 {
+    right: 20px;
+  }
+}

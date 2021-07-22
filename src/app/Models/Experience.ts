@@ -1,5 +1,6 @@
 export class Experience {
   companyName: string;
   companyLogoUrl: string;
-  timePeriod: string
+  timePeriod: string;
+  totalPeriod: string;
 }

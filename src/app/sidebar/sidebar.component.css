@@ -55,5 +55,9 @@
     height: 100px;
     width: 100px;
   }
+
+  .list-items ul li {
+    font-size: 15px;
+  }
 }
 
