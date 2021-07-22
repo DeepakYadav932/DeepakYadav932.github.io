@@ -37,3 +37,31 @@
 .navbar-links ul li:hover {
   background-color: var(--secondary-pf-color);
 }
+
+@media (max-width: 430px) {
+  .side-toggle {
+    margin: 0 !important;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .navbar-links {
+    margin: 0;
+  }
+
+  .navbar-links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-links ul li {
+    margin: 2px;
+  }
+}

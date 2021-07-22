@@ -30,6 +30,12 @@ export class ProjectsComponent implements OnInit {
       iconUrl: 'truno-icon.png',
       description: 'It is a business intelligence project which analyzes past data to provide future predictions and various type of comparisons reports',
       link: 'https://www.truno.com'
+    },
+    {
+      name: 'TruView',
+      iconUrl: 'truview.png',
+      description: 'Mobile App for business intelligence project(Truno) which analyzes past data to provide future predictions and various type of comparisons reports',
+      link: 'https://www.truno.com'
     }
   ]
 

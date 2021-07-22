@@ -50,3 +50,10 @@
   margin: 17px auto
 }
 
+@media(max-width: 430px) {
+  .owner-image {
+    height: 100px;
+    width: 100px;
+  }
+}
+

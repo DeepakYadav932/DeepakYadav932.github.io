@@ -24,3 +24,9 @@ p-accordion .p-accordion-content:focus  {
   color: var(--primary-pf-text-color) !important;
 }
 
+@media (max-width: 430px) {
+  p-sidebar .p-sidebar {
+    width: 85% !important;
+  }
+}
+
